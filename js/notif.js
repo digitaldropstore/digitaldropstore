@@ -2,14 +2,14 @@ const notification = document.getElementById("notification");
 const orderDetails = document.getElementById("orderDetails");
 
 const orderData = [
-    { name: "Dika", city: "Jakarta" },
-    { name: "Rian", city: "Bandung" },
+    { name: "cintya", city: "Jakarta" },
+    { name: "rina", city: "Bandung" },
     { name: "Siska", city: "Surabaya" },
     { name: "Intan", city: "Purwakarta" },
-    { name: "Fino", city: "Semarang" },
-    { name: "Galih", city: "Yogyakarta" },
-    { name: "Anas", city: "Kebumen" },
-    { name: "Gopur", city: "Purwokerto" },
+    { name: "tyas", city: "Semarang" },
+    { name: "endah", city: "Yogyakarta" },
+    { name: "fani", city: "Kebumen" },
+    { name: "milea", city: "Purwokerto" },
     // Add more order data as needed
 ];
 
