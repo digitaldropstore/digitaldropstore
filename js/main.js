@@ -7,7 +7,7 @@ $(document).on('click', '.send', function() {
     /* Whatsapp Setting */
     var walink = 'https://web.whatsapp.com/send',
         phone = '6285710786069',
-        text = 'Hi admin, Ambil Promo Jas Hujan' + '%0A' + 'Data order Jas Hujan',
+        text = 'Halo kak, Saya sudah mengisi formulir pemesanan masker telur' ,
         text_yes = 'Your order was successfully sent.',
         text_no = 'Data Belum Lengkap, silahkan isi data dengan lengkap';
 
@@ -29,7 +29,7 @@ $(document).on('click', '.send', function() {
             '*Nama* : ' + input_name + '%0A' +
             '*No. Whatsapp* : ' + input_phone + '%0A' +
             '*Alamat Lengkap* : ' + input_description + '%0A' +
-            '*Total Pembayaran* : *125 ribu/pcs* ';  // Semicolon was added here
+            'Tolong segera diproses';  
 
         /* Whatsapp Window Open */
         window.open(checkout_whatsapp, '_blank');
